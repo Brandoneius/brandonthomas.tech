@@ -12,3 +12,4 @@ TODO
 1. Make draft sealed simulator for BRO 
 2. Finish Resume Home Page
 3. Set up a blog for album reviews 
+4. Create an Arpeggio game with JS, show the guitar neck and then have the user select if it;s the corret arpeggio or not. 
