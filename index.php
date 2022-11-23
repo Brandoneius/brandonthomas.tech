@@ -27,7 +27,7 @@ error_reporting(E_ALL);
     u
     }
 
-    body {   background-image: linear-gradient(to bottom teal, blue, white);}
+    body {   background-image: linear-gradient(180deg,teal, white);}
 
 
     .date{
@@ -42,13 +42,13 @@ error_reporting(E_ALL);
         <p>Human Being, Musician, Programmer, Type 1 Diabetic</p>
     </div>
     <div class='container'>
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm navbar-light ">
         <ul class="navbar-nav">
             <li class="nav-item active">
             <a class="nav-link" href="https://brandonthomas.tech/">Resume</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">My Music</a>
+            <a class="nav-link" href="https://brandonthomas.tech/myMusic.php">My Music</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Music Review</a>
@@ -71,10 +71,11 @@ error_reporting(E_ALL);
         </div>
         <div class="bg-teal" id="resume_info">
             <div id="about_me">
-                I am an experienced full stack developer, musician, and person living with type 1 diabetes. 
+                I am an experienced full stack developer, guitarist, and full time pancreas. 
                 <br>
             <div>
-            <div id="word_experience">
+            <div id="work_experience">
+                <br>
                 <h2>Work Experience</h2>
                 <div id="job_1">
                     <h3>Senior Programming Manager</h3>
