@@ -1,10 +1,3 @@
-<?php
-//Global will host the global function and data base log in information
-//require_once("protected/global.php");
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,8 +26,10 @@ error_reporting(E_ALL);
     .date{
         color:blue;
     }
+    
 </style>
     <title>Brandon Thomas Tech</title>
+    <link rel="icon" type="image/x-icon" href="http://www.brandonthomas.tech/favicon.ico" />
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
@@ -59,7 +54,7 @@ error_reporting(E_ALL);
                 Projects
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Magic Sealed Generator</a>
+                <a class="dropdown-item" href="https://brandonthomas.tech/dmuSealed.php">DMU Magic Sealed Generator</a>
                 <a class="dropdown-item" href="#">Guitar Arpeggio Game</a>
                 <a class="dropdown-item" href="#">Creat Something</a>
             </div>
@@ -99,7 +94,7 @@ error_reporting(E_ALL);
                     <p class="resume_info">Designed new business procedures for the administration and billing department.</p>
                 </div>
                 <div id="job_3">
-                    <h3>Acounting And Admininistration Assistant</h3>
+                    <h3>Accounting And Admininistration Assistant</h3>
                     <h4>Imperial Western Products</h4>
                     <p>August 2017 - February 2018</p>
                     <p class="resume_info">Designed and automated administrative reports utilizing crystal reports and auto hot key for CEO and Division Managers.</p>
