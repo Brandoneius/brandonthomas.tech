@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Cetacean Sashay</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .jumbotron{
+        background: 
+        linear-gradient(
+        rgba(0, 0, 250, 0.25), 
+        rgba(125, 250, 250, 0.45)
+        );
+        background-size: cover;
+        u
+        }
+    
+        body {   background-image: linear-gradient(180deg,teal, white);}
+    
+    
+        .date{
+            color:blue;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Cetacean Sashay</h1>
+        <h1>Determine Dolphin or Whale Fluke?!</h1>
+    <div id="image-container">
+      <!-- This is where the image will be displayed -->
+    </div>
+    <button id="dolphin">Dolphin</button>
+    <button id="whale">Whale</button>
+    </div>
+    <script>
+      // An array of image URLs to display
+      //Going to make an array of arrays
+      //1 in the second position will be a dolphin and a 0 will be a whale
+      const imageUrls = [
+        'https://brandonthomas.tech/art/whalefluke3.jpg',
+        'https://brandonthomas.tech/art/whalefluke1.jpg',
+        'https://brandonthomas.tech/art/whalefluke2.jpg'
+      ];
+
+      const imageUrlsFluke = [
+        ['https://brandonthomas.tech/art/whalefluke3.jpg',0]
+        ['https://brandonthomas.tech/art/whalefluke1.jpg',0]
+        ['https://brandonthomas.tech/art/whalefluke2.jpg',0]
+      ];
+
+      // An array to track the user's responses
+      const responses = [];
+
+      // A counter to keep track of the current image
+      let counter = 0;
+
+      // Function to display the next image
+      function displayNextImage() {
+        // Check if we have reached the end of the imageUrls array
+        if (counter === imageUrls.length) {
+          // If we have, display the results
+          showResults();
+          return;
+        }
+
+        // Get the next image URL
+        const url = imageUrlsFluke[counter][0];
+
+        // Update the counter
+        counter++;
+
+        // Display the image
+        const imageElement = document.createElement('img');
+        imageElement.src = url;
+        document.getElementById('image-container').appendChild(imageElement);
+      }
+
+      // Function to show the results
+      function showResults() {
+        // Clear the image container
+        document.getElementById('image-container').innerHTML = '';
+
+        // Display the results
+        const resultsElement = document.createElement('p');
+        resultsElement.innerHTML = 'Results: ' + responses.join(', ');
+        document.getElementById('image-container').appendChild(resultsElement);
+      }
+
+      // Add event listeners to the buttons
+      document.getElementById('dolphin').addEventListener('click', function() {
+        responses.push('dolphin');
+        displayNextImage();
+      });
+      document.getElementById('whale').addEventListener('click', function() {
+        responses.push('whale');
+        displayNextImage();
+      });
+
+      // Display the first image
+      displayNextImage();
+    </script>
+  </body>
+</html>
