@@ -1,0 +1,25 @@
+body {
+  background-color: ##f2eee7; /* Off white background */
+}
+
+.bg-gradient-primary{
+
+}
+
+.btn-primary {
+  background-color: #d2b48c; /* Darker tan button color */
+  border-color: #d2b48c; /* Darker tan border color */
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #b8860b; /* Darker shade of tan for hover and focus state */
+  border-color: #b8860b;
+}
+
+
+.second_background {
+  background-color: #d0d1c6; /* Greenish close for other boxes */
+}
+
+<!-- Add this link in your <head> section to import the Google Fonts stylesheet -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
