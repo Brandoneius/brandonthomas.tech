@@ -16,6 +16,9 @@ body {
   border-color: #b8860b;
 }
 
+.jumbotron{
+      padding-top: 5px;
+}
 
 .second_background {
   background-color: #d0d1c6; /* Greenish close for other boxes */
@@ -23,3 +26,7 @@ body {
 
 <!-- Add this link in your <head> section to import the Google Fonts stylesheet -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+
+#jumbotron {
+
+}

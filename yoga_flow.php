@@ -2,53 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
-
-<style>
-  /* change the colors */
-$primary: black;
-$danger: #dd0000;
-$success: lime;
-$warning: orange;
-$info: aqua;
-
-$body-bg: #f3f3f0;
-
-@import "bootstrap";
-
-
-
-body {
-    padding-top: 90px;
-}
-
-section {
-    min-height: 90vh;
-}
-</style>
-
-
+    <title>Yoga & Wellness</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="main.css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="main.css">
 
   </head>
   <body>
     <div class="container bg-gradient-primary" >
       <div class="jumbotron text-center">
-        <img src="flower_only.png" alt="Cool flower" style="z-index: 1; width: 80px;">
+        <img src="flower_only.png" alt="Magnolia flower" style="z-index: 1; width: 80px;">
+
         <div class="container">
-        <h1 class="display-4" style="font-family: 'EB Garamond', serif;">Yoga & Wellness</h1>
+          <h1 class="display-4" style="font-family: 'EB Garamond', serif;">Yoga & Wellness</h1>
         </div>
-
-        <a href="yoga_flow.php" class="btn btn-primary">Log In</a>
-
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan vestibulum arcu, ut commodo dolor.</p>
         <hr class="my-4">
-        <p>Learn more about us and what we do.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
       </div>
 
 
@@ -74,6 +45,14 @@ section {
         </div>
       </nav>
 
+
+      <div class="container">
+        <a href="yoga_flow.php" class="btn btn-primary">Log In</a>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan vestibulum arcu, ut commodo dolor.</p>
+        <hr class="my-4">
+        <p>Learn more about us and what we do.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+      </div>
 
       <div class="row">
         <div class="col-md-4">
