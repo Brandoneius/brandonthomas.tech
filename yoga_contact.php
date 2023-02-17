@@ -23,12 +23,11 @@
         <hr class="my-4">
       </div>
 
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse " id="navbarNav">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav justify-content-between w-100">
       <li class="nav-item active">
         <a class="nav-link" href="yoga_flow.php">Home</a>
@@ -43,12 +42,64 @@
   </div>
 </nav>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+
+
+
+      <div class="container text-center">
+
+          <h3 class="display-3" style="font-family: 'EB Garamond', serif;">Get In Touch!</h1>
+      </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div>
+        <p>Join our mailing list! We'd love to have to on our journey to wellness 
+      </div>
+
             <div class="image-container">
-              <img class="image-fluid w-100" src="flower_main.png" alt="flower_main" class="floating-image">
+              <img class="image-fluid w-100" src="yoga_2.png" alt="flower_main" class="floating-image">
             </div>
+    </div>
+    <div class="col-md-6">
+      <h2>Contact Form</h2>
+      <form action="send_email.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+      <div class="container">
+                  <hr class="my-4">
+        <div class="row">
+          <div class="col-md-4">
+              <p>Could also put some words over here, or maybbe a picture? 
+          </div>
+
+          <div class="col-md-8">
+            <p>This is is an about us for the yoga studio. Words words words, I care about your health and you will do great if you believe in yourself and practice yoga. Eat well and live well in this life we have, as short as it is. 
+            </p>
+            <p>Additional information. Sally sells sea shells by the sea shore. More about me the business stuff stuff stuff goodness. 
+            </p>
+            <p>Finally a few more things just to really show how nice this box is. Wow you could really put a lot of great copy in here.
+            </p>
+            <p>Final bit of copy yabba dabbba dooo!!!
+            </p>
           </div>
         </div>
       </div>
@@ -56,32 +107,16 @@
 
       <div class="container">
         <hr class="my-4">
-        <p class="lead text-center">Yoga for Every Body</p>
+        <p class="lead text-center">Be Here Now.</p>
         <hr class="my-4">
-        <p>Learn more about us and what we do.</p>
-        <a class="btn btn-primary btn-lg" href="yoga_about.php" role="button">Learn More</a>
-        <br>
       </div>
 
 <div class="container shadow-gradient">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan vestibulum arcu, ut commodo dolor.</p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan vestibulum arcu, ut commodo dolor.</p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan vestibulum arcu, ut commodo dolor.</p>
-        </div>
-      </div>
+
 
       <div class="container">
           <div class="row">
-        <a href="yoga_contact.php" class="btn btn-primary">Join Our Mailing List!</a>
+        <p>You could put more information here if you wanted, a link to the mailing list or info on ohther things and such! </p>
       </div>
       </div> 
 
@@ -99,6 +134,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
 
 
   </body>
